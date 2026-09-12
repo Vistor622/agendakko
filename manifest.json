@@ -1,9 +1,0 @@
-{
-  "name": "Estética & Estilo",
-  "short_name": "Estética",
-  "start_url": "/",
-  "display": "standalone",
-  "background_color": "#F5F2EA",
-  "theme_color": "#2F4A3E",
-  "icons": []
-}
