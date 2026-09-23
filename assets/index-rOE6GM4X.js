@@ -706,6 +706,14 @@ h2 { font-family: 'Newsreader', serif; font-weight: 500; font-size: 22px; margin
   .date-nav > .btn-sm { flex: 1 1 0; width: auto; justify-content: center; margin-left: 0 !important; order: 3; padding: 7px 10px; font-size: 12.5px; }
 
   .tl-scroll { -webkit-overflow-scrolling: touch; max-height: 70vh; }
+  .tl-card {
+    padding: 6px 9px 7px; border-radius: 10px; box-shadow: 0 1px 4px var(--shadow);
+    -webkit-mask-image: linear-gradient(to bottom, rgba(0,0,0,1) 78%, rgba(0,0,0,0) 100%);
+    mask-image: linear-gradient(to bottom, rgba(0,0,0,1) 78%, rgba(0,0,0,0) 100%);
+  }
+  .tl-card-name { font-size: 13.5px; }
+  .tl-card-time { font-size: 10.5px; }
+  .tl-card-staff { font-size: 11.5px; }
   .staff-filter { flex-wrap: nowrap; overflow-x: auto; -webkit-overflow-scrolling: touch; padding-bottom: 2px; margin-bottom: 8px; }
 
   .inline-form { flex-direction: column; align-items: stretch; }
