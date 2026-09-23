@@ -698,15 +698,15 @@ h2 { font-family: 'Newsreader', serif; font-weight: 500; font-size: 22px; margin
   .dash-period-label { min-width: 0; flex: 1; }
   .dash-kpi-grid { grid-template-columns: repeat(2, 1fr); }
 
-  .date-nav { gap: 8px; }
+  .date-nav { gap: 6px; margin-bottom: 8px; }
   .date-nav-controls { width: 100%; justify-content: space-between; }
   .date-nav-current-wrap { flex: 1; }
   .date-nav-current { min-width: 0; width: 100%; font-size: 12px; padding: 7px 8px; }
-  .date-nav > .link-btn, .date-nav > .btn-sm { flex-shrink: 0; }
-  .date-nav > .btn-sm { width: 100%; justify-content: center; margin-left: 0 !important; order: 3; }
+  .date-nav > .link-btn { flex-shrink: 0; }
+  .date-nav > .btn-sm { flex: 1 1 0; width: auto; justify-content: center; margin-left: 0 !important; order: 3; padding: 7px 10px; font-size: 12.5px; }
 
   .tl-scroll { -webkit-overflow-scrolling: touch; }
-  .staff-filter { flex-wrap: nowrap; overflow-x: auto; -webkit-overflow-scrolling: touch; padding-bottom: 2px; }
+  .staff-filter { flex-wrap: nowrap; overflow-x: auto; -webkit-overflow-scrolling: touch; padding-bottom: 2px; margin-bottom: 8px; }
 
   .inline-form { flex-direction: column; align-items: stretch; }
   .inline-form input, .inline-form select { min-width: 0; }
