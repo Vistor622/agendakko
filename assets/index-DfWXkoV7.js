@@ -668,7 +668,7 @@ h2 { font-family: 'Newsreader', serif; font-weight: 500; font-size: 22px; margin
 .tl-staff-header-col { box-sizing: border-box; padding: 10px 8px; font-size: 13px; font-weight: 700; letter-spacing: .01em; color: var(--pine); display: flex; align-items: center; justify-content: center; text-align: center; gap: 5px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
 .tl-staff-header-col--other { color: var(--muted); font-weight: 600; font-style: italic; }
 .tl-body { display: flex; }
-.tl-col-divider { position: absolute; top: 0; bottom: 0; width: 13px; margin-left: -6.5px; pointer-events: none; z-index: 1; --dv-bg: var(--paper-raised); --dv-line: color-mix(in srgb, var(--pine) 45%, var(--line)); background: linear-gradient(to right, transparent 5px, var(--dv-line) 5px, var(--dv-line) 8px, transparent 8px), var(--dv-bg); }
+.tl-col-divider { position: absolute; top: 0; bottom: 0; width: 13px; margin-left: -6.5px; pointer-events: none; z-index: 0; --dv-bg: var(--paper-raised); --dv-line: color-mix(in srgb, var(--pine) 45%, var(--line)); background: linear-gradient(to right, transparent 5px, var(--dv-line) 5px, var(--dv-line) 8px, transparent 8px), var(--dv-bg); }
 .tl-col-divider--head { --dv-bg: var(--pine-soft); }
 .tl-ruler { width: 54px; flex-shrink: 0; border-right: 1px solid var(--line); position: sticky; left: 0; z-index: 4; background: var(--pine-soft); }
 .tl-tick { position: absolute; left: 0; right: 0; font-family: 'IBM Plex Mono', monospace; font-size: 10px; color: var(--muted); padding-left: 7px; transform: translateY(-6px); font-weight: 600; }
